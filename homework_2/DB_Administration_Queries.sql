@@ -22,5 +22,6 @@ SELECT * FROM birdstrikes WHERE state IS NOT NULL AND state != '' and bird_size 
 /*Answer: Colorado*/
 
 /*Exercise 6*/
-SELECT * FROM birdstrikes WHERE state='Colorado' AND (WEEKOFYEAR('flight_date')) = 52;
-/*Answer: There are no entries for the 52nd week. I double checked the uploaded CSV and only saw entries up to April 2000. In order for an entry to be in the 52nd week, it would have to be in the last week in Decemeber.*/
+SELECT WEEKOFYEAR (flight_date) WEEK_, flight_date from birdstrikes where state = 'Colorado' and flight_date IS NOT NULL;
+SELECT DATEDIFF(NOW(), '2000-01-01');
+/*Answer: $7,940*/
