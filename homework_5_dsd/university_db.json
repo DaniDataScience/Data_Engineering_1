@@ -1,0 +1,40 @@
+{
+   "professors": [
+       {
+           "first name": "Laszlo",
+           "last name": "Sallo",
+           "department": "Bussiness Analytics"
+       },
+       {
+           "first name": "Chrys",
+           "last name": "Margaritidis",
+           "job title": "Dean of Students"
+       }
+   ],
+   "courses": [
+      {
+         "title": "Data Engineering 1",
+         "deparartment": "Business Analytics",
+         "term": "Fall 2021"
+       },
+      {
+         "title": "Coding 1",
+         "deparartment": "Business Analytics",
+         "term": "Fall 2021"
+      }
+   ],
+    "students": [
+      {
+         "first name": "Nadine",
+         "last name": "Levin",
+         "program": "MSc Business Analytics",
+         "current student": "TRUE"
+       },
+      {
+         "first name": "Barrack",
+         "last name": "Obama",
+         "program": "MBA",
+         "current student": "FALSE"
+      }
+   ]
+}
