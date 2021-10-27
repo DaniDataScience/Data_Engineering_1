@@ -58,9 +58,11 @@ In my analytical layer, I joined the 5 tables together to create a denormalized 
 I created 2 separate views: one focused on the demographic data of the count of shootings and another on state demographic data including the count of police shootings.
 
 *ShootingVictimBreakout_View*
+
 This view includes the count of shooting id and various shooting variables I found interesting and informative based on the outputs. I include the gender, race, manner of death, signs of mental illness, armed, flee, and body camera. As the next view shows, the state populations of Black Americans is significantly smaller than white Americans, but Black Americans are killed at a much higher rate than White Americans. This data can be further analyzed by determining if there are certain variables that lead to a higher count of fatal shootings like mental health status.
 
 *StateDemoDataandFatalShootingCount_view*
+
 This view includes the state demographic data with the count of shooting id. This includes median income, state poverty rate, percentage completed high school, and state population racial breakout. It can be used to determine if there are certain variables in states lead to higher shootings. For example, CA and TX lead the way in terms of count of police shootings and have some of the lowest high school completion rates. Additional state information can be added to this view like unemployment for even more analysis.
 
 
